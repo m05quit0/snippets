@@ -63,3 +63,9 @@ sudo apt install redis-server python-redis
 ```sh
 sudo apt install bcrypt libffi-dev
 ```
+
+#### Сгенерировать случайный ключ, как это делает Django
+```python
+from django.core.management.utils import get_random_secret_key
+get_random_secret_key()
+```
