@@ -11,6 +11,11 @@ GRANT ALL PRIVILEGES ON `dbname`.* TO 'username'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
+#### Накатить базу из дампа
+```sh
+mysql -h host -u user -p dbname < dump.sql
+```
+
 #### Загрузить таблицы временных зон.
 ```sh
 mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql
