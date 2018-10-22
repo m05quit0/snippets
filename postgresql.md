@@ -25,3 +25,10 @@ dropuser username
 ```sql
 ALTER USER myuser WITH SUPERUSER;
 ```
+
+#### Создать дамп базы.
+
+#### Накатить базу из дампа.
+```sh
+psql -h host -U user -W -d dbname -1 -f dump.sql
+```
