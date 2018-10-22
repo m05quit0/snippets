@@ -1,4 +1,4 @@
-# some dev snippets
+# Сниппеты
 
 - [Unix shell](sh.md)
 - [Python](python.md)
@@ -6,3 +6,4 @@
   - [Django](django.md)
 - [PHP](php.md)
 - [PostgreSQL](postgresql.md)
+- [MySQL](mysql.md)
