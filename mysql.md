@@ -11,6 +11,12 @@ GRANT ALL PRIVILEGES ON `dbname`.* TO 'username'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
+#### Назначить пользователю права суперпользователя
+```sql
+GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+```
+
 #### Накатить базу из дампа
 ```sh
 mysql -h host -u user -p dbname < dump.sql
