@@ -17,6 +17,11 @@ GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
 
+#### Создать дамп базы
+```sh
+mysqldump -h host -u user -p dbname > dump.sql
+```
+
 #### Накатить базу из дампа
 ```sh
 mysql -h host -u user -p dbname < dump.sql
