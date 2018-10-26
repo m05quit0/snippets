@@ -16,3 +16,8 @@ convert path_to_image null: 2>&- || echo File is corrupted
 ```sh
 cd my_dir/ && tar -zcvf ../my_dir.tgz . && cd ..
 ```
+
+#### Вывести листинг директории с указанием размера файлов в MiB
+```
+ls -l --block-size=M
+```
