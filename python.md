@@ -20,3 +20,8 @@ python -c "import os; print(os.urandom(16))"
 ```sh
 pip install <имя-пакета>.whl
 ```
+
+#### HTTP сервер для раздачи статики из директории (Python 3).
+```sh
+python -m http.server
+```
