@@ -1,5 +1,3 @@
-# Сниппеты
-
 - [Unix shell](sh.md)
 - [Python](python.md)
   - [Flask](flask.md)
@@ -8,3 +6,4 @@
 - [PostgreSQL](postgresql.md)
 - [MySQL](mysql.md)
 - [Git](git.md)
+- [Vagrant](vagrant.md)
