@@ -14,7 +14,7 @@ virtualenv venv
 
 #### Python 3
 ```sh
-sudo apt install python3-dev
+sudo apt install python3-dev python3-venv
 sudo -H python3 -m pip install --upgrade pip
 python3 -m venv venv
 ```
