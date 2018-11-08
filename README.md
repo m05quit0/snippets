@@ -7,3 +7,4 @@
 - [MySQL](mysql.md)
 - [Git](git.md)
 - [Vagrant](vagrant.md)
+- [Ubuntu](ubuntu.md)
