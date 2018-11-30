@@ -21,3 +21,6 @@ cd my_dir/ && tar -zcvf ../my_dir.tgz . && cd ..
 ```
 ls -l --block-size=M
 ```
+
+## Ссылки
+- [Изучите необходимый минимум Linux, чтобы быть продуктивным](https://ru.hexlet.io/blog/posts/basic-linux-productivity)
