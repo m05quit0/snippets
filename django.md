@@ -69,3 +69,8 @@ sudo apt install bcrypt libffi-dev
 from django.core.management.utils import get_random_secret_key
 get_random_secret_key()
 ```
+
+#### Стартовать проект в текущей директории
+```sh
+django-admin startproject projectname .
+```
