@@ -27,8 +27,16 @@ ALTER USER myuser WITH SUPERUSER;
 ```
 
 #### Создать дамп базы.
+```sh
+pg_dump -h host -U user -W dbname > dump.sql
+```
 
 #### Накатить базу из дампа.
 ```sh
 psql -h host -U user -W -d dbname -1 -f dump.sql
+```
+
+#### Сделать дамп на другой сервер без создания файла.
+```sh
+pg_dump dbname | psql dbname
 ```
