@@ -3,6 +3,7 @@
   - [Flask](flask.md)
   - [Django](django.md)
 - [PHP](php.md)
+  - [Laravel](laravel.md)
 - [PostgreSQL](postgresql.md)
 - [MySQL](mysql.md)
 - [Git](git.md)
