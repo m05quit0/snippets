@@ -2,7 +2,13 @@
 
 # PHP
 
-#### Установить PHP без Apache в Ubuntu
+#### Расширенный репозитарий со всеми актуальными версиями PHP и его расширений для Ubuntu.
 ```sh
-sudo apt-get install php5-cli
+sudo add-apt-repository ppa:ondrej/php
+sudo apt update
+```
+
+#### Установить PHP без Apache в Ubuntu.
+```sh
+sudo apt install php7.3-cli
 ```
