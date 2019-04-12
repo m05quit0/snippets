@@ -10,3 +10,4 @@
 - [Vagrant](vagrant.md)
 - [Ubuntu](ubuntu.md)
 - [Node.js](nodejs.md)
+- [Photoshop](photoshop.md)
