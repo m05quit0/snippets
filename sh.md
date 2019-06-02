@@ -22,5 +22,11 @@ cd my_dir/ && tar -zcvf ../my_dir.tgz . && cd ..
 ls -l --block-size=M
 ```
 
+#### Проверить работоспособность SMTP сервера
+```sh
+sudo apt install swaks
+swaks -t user@example.com -s smtp.gmail.com:587 -tls -a LOGIN
+```
+
 ## Ссылки
 - [Изучите необходимый минимум Linux, чтобы быть продуктивным](https://ru.hexlet.io/blog/posts/basic-linux-productivity)
