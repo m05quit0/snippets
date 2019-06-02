@@ -16,3 +16,8 @@ sudo locale-gen ru_RU.UTF-8
 ```sh
 sudo update-locale
 ```
+
+#### Удалить пользователя из группы
+```sh
+sudo deluser username groupname
+```
