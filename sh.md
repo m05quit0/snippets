@@ -28,7 +28,7 @@ sudo apt install swaks
 swaks -t user@example.com -s smtp.gmail.com:587 -tls -a LOGIN
 ```
 
-#### Сгенерировать пару SSH ключей
+#### Сгенерировать пару RSA ключей
 ```sh
 ssh-keygen
 ```
