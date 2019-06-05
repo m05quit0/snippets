@@ -43,3 +43,8 @@ psql -h host -U user -W -d dbname -1 -f dump.sql
 ```sh
 pg_dump dbname | psql dbname
 ```
+
+#### Показать все таблицы в текущей базе
+```psql
+\dt
+```
