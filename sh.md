@@ -33,5 +33,10 @@ swaks -t user@example.com -s smtp.gmail.com:587 -tls -a LOGIN
 ssh-keygen
 ```
 
+#### Принудительно залогиниться по ssh с помощью пароля
+```sh
+ssh -o PreferredAuthentications=password example.com
+```
+
 ## Ссылки
 - [Изучите необходимый минимум Linux, чтобы быть продуктивным](https://ru.hexlet.io/blog/posts/basic-linux-productivity)
