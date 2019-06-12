@@ -21,3 +21,15 @@ sudo update-locale
 ```sh
 sudo deluser username groupname
 ```
+
+#### Создать swap для тяжелых задач на слабом сервере
+```sh
+sudo dd if=/dev/zero of=/swapfile bs=1024 count=524288
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+```
+Чтобы своп подключался автоматически при загрузке, добавить в /etc/fstab:
+```
+/swapfile   swap    swap    defaults        0       0
+```
