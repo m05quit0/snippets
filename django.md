@@ -74,3 +74,14 @@ get_random_secret_key()
 ```sh
 django-admin startproject projectname .
 ```
+
+#### Отображение тестовых страниц 404 и 500 в дев-окружении
+```python
+if settings.DEBUG:
+    from django.views.generic.base import TemplateView
+
+    urlpatterns += [
+        path('test404/', TemplateView.as_view(template_name='404.html')),
+        path('test500/', TemplateView.as_view(template_name='500.html')),
+    ]
+```
