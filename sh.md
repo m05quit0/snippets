@@ -38,5 +38,10 @@ ssh-keygen
 ssh -o PreferredAuthentications=password example.com
 ```
 
+#### Использование диска
+```sh
+df -h
+```
+
 ## Ссылки
 - [Изучите необходимый минимум Linux, чтобы быть продуктивным](https://ru.hexlet.io/blog/posts/basic-linux-productivity)
