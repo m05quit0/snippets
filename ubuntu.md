@@ -34,7 +34,7 @@ sudo swapon /swapfile
 /swapfile   swap    swap    defaults        0       0
 ```
 
-#### Установить Python3.7 из исходников на Debian/Ubuntu
+#### Установить Python 3.7 из исходников на Debian/Ubuntu
 ```sh
 sudo apt-get install build-essential checkinstall
 sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev
