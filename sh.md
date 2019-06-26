@@ -48,5 +48,10 @@ df -h
 - Vim навигация hjkl и Ctrl+b, Ctrl+f
 - Выйти из скроллбека Esc
 
+#### Вернуться к активному screen (attached) после дисконнекта
+```sh
+screen -D -r session_id
+```
+
 ## Ссылки
 - [Изучите необходимый минимум Linux, чтобы быть продуктивным](https://ru.hexlet.io/blog/posts/basic-linux-productivity)
