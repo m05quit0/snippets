@@ -43,5 +43,10 @@ ssh -o PreferredAuthentications=password example.com
 df -h
 ```
 
+#### Навигация по консольному выводу screen сессии
+- Перейти в режим скроллбек - Ctrl+a [
+- Vim навигация hjkl и Ctrl+b, Ctrl+f
+- Выйти из скроллбека Esc
+
 ## Ссылки
 - [Изучите необходимый минимум Linux, чтобы быть продуктивным](https://ru.hexlet.io/blog/posts/basic-linux-productivity)
