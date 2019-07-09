@@ -29,9 +29,9 @@ dropuser username
 ALTER USER myuser WITH SUPERUSER;
 ```
 
-#### Создать дамп базы.
+#### Создать дамп базы (plain format, no privileges, no owner).
 ```sh
-pg_dump -h host -U user -W --no-owner dbname > dump.sql
+pg_dump -Fp -x -O -h host -U user -W dbname > dump.sql
 ```
 
 #### Накатить базу из дампа.
