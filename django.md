@@ -85,3 +85,8 @@ if settings.DEBUG:
         path('test500/', TemplateView.as_view(template_name='500.html')),
     ]
 ```
+
+#### Откатиться к состоянию приложения до первой миграции
+```sh
+python manage.py migrate <app> zero
+```
