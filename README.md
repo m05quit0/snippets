@@ -17,3 +17,4 @@
 
 - [Photoshop](photoshop.md)
 - [ffmpeg](ffmpeg.md)
+- [exiftool](exiftool.md)
