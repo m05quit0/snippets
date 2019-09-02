@@ -17,6 +17,12 @@ convert path_to_image null: 2>&- || echo File is corrupted
 cd my_dir/ && tar -zcvf ../my_dir.tgz . && cd ..
 ```
 
+#### Распаковать tar.gz в нужную директорию
+```sh
+mkdir foo
+tar -xzf bar.tar.gz -C foo
+```
+
 #### Вывести листинг директории с указанием размера файлов в MiB
 ```
 ls -l --block-size=M
