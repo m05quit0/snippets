@@ -16,3 +16,4 @@
 - [Ubuntu](ubuntu.md)
 
 - [Photoshop](photoshop.md)
+- [ffmpeg](ffmpeg.md)
