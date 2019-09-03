@@ -12,6 +12,7 @@
 - [Redis](redis.md)
 
 - [Git](git.md)
+- [tmux](tmux.md)
 - [Vagrant](vagrant.md)
 - [Ubuntu](ubuntu.md)
 
