@@ -59,5 +59,10 @@ df -h
 screen -D -r session_id
 ```
 
+#### Распечатать все текстовые исходники приложения в один файл. Например, для депонирования авторских прав.
+```sh
+for i in `find package.json README.md public src -type f \( ! -iname "*.jpg" -and ! -iname "*.png" \)`; do echo "$i"; echo "---"; cat "$i"; echo ; done > all_source.txt
+```
+
 ## Ссылки
 - [Изучите необходимый минимум Linux, чтобы быть продуктивным](https://ru.hexlet.io/blog/posts/basic-linux-productivity)
