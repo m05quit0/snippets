@@ -18,6 +18,8 @@ p  previous window
 f  find window
 ,  name window
 &  kill window
+:swap-window -t -1 (Move window left)
+:swap-window -t +1 (Move window right)
 ```
 
 #### Панели (сплиты)
