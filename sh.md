@@ -39,6 +39,11 @@ swaks -t user@example.com -s smtp.gmail.com:587 -tls -a LOGIN
 ssh-keygen
 ```
 
+#### Закнуть свой публичный ключ на сервер в ~/.ssh/authorized_keys
+```sh
+ssh-copy-id username@hostname
+```
+
 #### Принудительно залогиниться по ssh с помощью пароля
 ```sh
 ssh -o PreferredAuthentications=password example.com
