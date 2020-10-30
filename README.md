@@ -1,4 +1,5 @@
 - [Unix shell](sh.md)
+- [Windows cmd](cmd.md)
 
 - [Python](python.md)
   - [Flask](flask.md)
