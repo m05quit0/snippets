@@ -12,4 +12,8 @@ mklink /d \MyFolder \Users\User1\Documents
 mklink /h \MyFile.file \User1\Documents\example.file
 ```
 
+### Заархивировать директорию в zip исключая некоторые поддиректории
+```cmd
+7z a -tzip arch.zip source_path -xr!?git\ -xr!?vscode\ -xr!__pycache__\
+```
 
