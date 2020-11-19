@@ -1,4 +1,4 @@
-- [Unix shell](sh.md)
+- [Unix shell](unix.md)
 - [Windows cmd](cmd.md)
 
 - [Python](python.md)

@@ -14,7 +14,7 @@ convert path_to_image null: 2>&- || echo File is corrupted
 
 #### Создать архив директории
 ```sh
-cd my_dir/ && tar -zcvf ../my_dir.tgz . && cd ..
+cd my_dir/ && tar -zcf ../my_dir.tgz . && cd ..
 ```
 
 #### Распаковать tar.gz в нужную директорию
