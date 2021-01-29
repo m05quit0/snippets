@@ -13,3 +13,8 @@ git remote -v
 git remote set-url origin git@repo.url
 git remote -v
 ```
+
+#### Удалить несколько веток по маске
+```sh
+git branch -d `git branch --list 'xyz*'`
+```
