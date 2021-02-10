@@ -18,3 +18,8 @@ git remote -v
 ```sh
 git branch -d `git branch --list 'xyz*'`
 ```
+
+#### Сравнить файл в двух ветках
+```sh
+git diff mybranch..master -- file/path
+```
