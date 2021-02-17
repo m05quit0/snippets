@@ -23,3 +23,8 @@ git branch -d `git branch --list 'xyz*'`
 ```sh
 git diff mybranch..master -- file/path
 ```
+
+#### Исправить примечание к последнему коммиту
+```sh
+git commit --amend -m "New commit message"
+```
