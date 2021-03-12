@@ -28,3 +28,17 @@ git diff mybranch..master -- file/path
 ```sh
 git commit --amend -m "New commit message"
 ```
+
+#### Создать коммит, отменяющий последние 4 коммита
+```sh
+git revert HEAD~3..
+```
+
+#### Отменить последние 4 коммита без следов в истории
+```sh
+git revert --no-commit HEAD~3..
+```
+или
+```sh
+git reset --hard HEAD~3
+```
