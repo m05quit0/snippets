@@ -17,3 +17,7 @@ mklink /h \MyFile.file \User1\Documents\example.file
 7z a -tzip arch.zip source_path -xr!?git\ -xr!?vscode\ -xr!__pycache__\
 ```
 
+### Заархивировать содержимое текущей директории в zip без зжатия
+```cmd
+7z a -tzip -mx0 ..\arch.zip .\*
+```
