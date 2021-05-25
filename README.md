@@ -22,5 +22,6 @@
 - [Photoshop](photoshop.md)
 - [ffmpeg](ffmpeg.md)
 - [exiftool](exiftool.md)
+- [ImageMagick](imagemagick.md)
 
 - [GIS](gis.md)
