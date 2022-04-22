@@ -69,5 +69,10 @@ screen -D -r session_id
 for i in `find package.json README.md public src -type f \( ! -iname "*.jpg" -and ! -iname "*.png" \)`; do echo "$i"; echo "---"; cat "$i"; echo ; done > all_source.txt
 ```
 
+#### Переименовать файлы в папке с числами в имени с заполнением нулями по маске.
+```sh
+rename 's/\d+/sprintf("%05d",$&)/e' *.jpg
+```
+
 ## Ссылки
 - [Изучите необходимый минимум Linux, чтобы быть продуктивным](https://ru.hexlet.io/blog/posts/basic-linux-productivity)
