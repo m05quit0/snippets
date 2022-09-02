@@ -25,3 +25,5 @@
 - [ImageMagick](imagemagick.md)
 
 - [GIS](gis.md)
+
+- [Yandex Cloud](yandex-cloud.md)
