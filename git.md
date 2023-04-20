@@ -40,5 +40,5 @@ git revert --no-commit HEAD~3..
 ```
 или
 ```sh
-git reset --hard HEAD~3
+git reset --hard HEAD~4
 ```
