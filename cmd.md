@@ -21,3 +21,8 @@ mklink /h \MyFile.file \User1\Documents\example.file
 ```cmd
 7z a -tzip -mx0 ..\arch.zip .\*
 ```
+
+### Скопировать содержимое папки с возобнавлением в случае прерывания
+```cmd
+robocopy \\from\path D:\to\path /E /COPY:DAT /DCOPY:DAT /R:3 /W:1 /Z /J
+```
